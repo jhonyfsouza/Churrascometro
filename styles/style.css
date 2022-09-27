@@ -1,0 +1,22 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    background-color: rgb(91, 178, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+input{
+
+    display: block; /*Faz com que os input ocupe todo o espaço, não permitindo nada do lado deles na linha*/
+    width: 100%; /*Faz ele pegar 100% da largura do elemento PAI, que no caso é a DIV(container)*/
+    padding: 5px;
+    /*Corrigindo a largura da direita*/
+    box-sizing: border-box; /*Isso quer dizer q a borda dos 100% vai ser contando borda,paddin e tudo mais*/
+    margin-bottom: 10px;
+
+}
